@@ -9,3 +9,22 @@ class Breakfast {
     }
   
 }
+
+class Lunch {
+  
+    constructor(salad, soup, drink){
+      this.salad = salad;
+      this.drink = drink;
+      this.soup = soup;
+    }
+  
+}
+
+class Dinner {
+  
+    constructor(food, drink){
+      this.food = food;
+      this.drink = drink;
+    }
+  
+}
